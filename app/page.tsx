@@ -1,4 +1,3 @@
-import ContactUs from "@/components/sections/FeedbackForm";
 import Commitments from "../components/sections/Commitments";
 import AboutUs from "@/components/sections/AboutUs";
 import FeedbackForm from '@/components/sections/FeedbackForm'
