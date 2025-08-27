@@ -14,14 +14,14 @@ const sendMail = async (subject: string, text: string) => {
     port: 587,
     secure: false, // true for port 465, false for other ports
     auth: {
-      user: "akshatparashar18@gmail.com",
+      user: "sarthakyadav7303@gmail.com",
       pass: "cepijkqyeruwbwvy", // use app password if 2-factor auth is enabled
     },
   });
 
   try {
     const info = await transporter.sendMail({
-      from: '"Akshat" <akshatparashar18@gmail.com>', // sender address
+      from: '"Sarthak" <sarthakyadav7303@gmail.com>', // sender address
       to: "teamblintfly@gmail.com", // receiver's email
       subject,
       text,
